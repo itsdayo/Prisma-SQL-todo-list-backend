@@ -7,7 +7,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
+yarn dev (nodemon)
 # or
 pnpm dev
 # or
@@ -22,7 +22,7 @@ Server will run on [http://localhost:5000](http://localhost:5000)
 To migrate the database
 
 ```bash
-prisma:migrate:dev
+yarn prisma:migrate:dev
 ```
 
 
